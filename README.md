@@ -124,7 +124,7 @@ Feel free to check the [issues page](https://github.com/andrianarivo/catalog_of_
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, leave a star
+If you like this project, drop a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
