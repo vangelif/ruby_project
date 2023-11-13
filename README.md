@@ -106,6 +106,8 @@ gem install
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Save to file
+- Insert emojis on console prompts
+- Make it more user friendly
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
