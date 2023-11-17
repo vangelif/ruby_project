@@ -1,3 +1,7 @@
+# MAIN CLASS: does three things
+# starts the application
+# displays the options
+# takes user input  
 require_relative 'takeinput'
 require_relative 'app'
 
