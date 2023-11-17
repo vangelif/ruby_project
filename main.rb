@@ -41,3 +41,4 @@ class Main
 end
 
 Main.new
+# ruby main.rb
