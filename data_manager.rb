@@ -1,3 +1,6 @@
+# DataManager module handles 
+# saving and loading data to and from JSON files 
+
 require 'fileutils'
 
 BOOK_FILE = 'data/books.json'.freeze
