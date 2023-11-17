@@ -1,6 +1,12 @@
 # DataManager module handles 
 # saving and loading data to and from JSON files 
 
+# Upon loading ie authors from a file, the app:
+# reads the file
+# creates author objects
+# updates list of authors
+# updates the linkings of authors to their associated items
+
 require 'fileutils'
 
 BOOK_FILE = 'data/books.json'.freeze
