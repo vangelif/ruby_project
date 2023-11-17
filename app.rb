@@ -1,3 +1,8 @@
+# APP CLASS: is in charge for
+# includes modules to access their functions
+# initializes data from the DataManager
+# handles user input with first_run and second_run methods
+
 require 'json'
 require_relative 'modules/game_module'
 require_relative 'modules/music_album_module'
