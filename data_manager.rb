@@ -29,11 +29,18 @@ module DataManager
   end
 
   # rubocop:disable Style/GuardClause
+  # load_ methods are being fired when the App initializes
   def load_books
     @books = []
     if File.exist?(BOOK_FILE)
+      # this line reads the contents of BOOK_FILE
+      # JSON.parse converts each JSON formatted data to array of hashes 
+      # map method iterates over each element of the array
       JSON.parse(File.read(BOOK_FILE)).map do |book|
+        # for each book element and book_object is created 
         book_object = create_book_object(book)
+        # each book_object is appended to the @books instance variable
+        # `<<` shovel operator appends elements to an array
         @books << book_object
         @items << book_object
       end
